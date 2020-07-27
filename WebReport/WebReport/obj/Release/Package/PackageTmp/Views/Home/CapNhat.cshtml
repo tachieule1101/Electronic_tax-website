@@ -1,0 +1,92 @@
+﻿@using System.Data
+@model DataTable
+@{
+    ViewBag.Title = "CapNhat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <style>
+        .inputfile {
+            display: none !important;
+        }
+
+        .file-box {
+            display: inline-block;
+            width: 300px;
+            box-sizing: border-box;
+        }
+
+        .file-button {
+            font-size: 25px;
+            border-left: 1px solid;
+        }
+
+        .gg {
+            border: 1px solid;
+            padding: 5px 5px 5px 5px;
+        }
+
+        
+    </style>
+   <br />
+<br />
+<br />
+<h3>TienDoCBQL</h3>
+    @using (Html.BeginForm("CapNhat", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+                    <div class="inputfile-box">
+                        <input type="file" id="file" name="file" class="inputfile" onchange='uploadFile(this)'>
+                        <label for="file" class="gg">
+                            <span id="file-name" class="file-box"></span>
+                            <span class="file-button">
+                                ...
+                            </span>
+                        </label>
+                    </div>
+                    <br />
+                    <table>
+                        <tr>
+                            <th>
+                                <input type="submit" value="Tải File" class="btn btn-default" />
+                            <th>
+                            <th>
+                                <input type="submit" value="Cập nhật File" class="btn btn-default" />
+                            <th>
+                            <th>
+                                <input type="submit" value="Thoát" class="btn btn-default" />
+                            <th>
+                        </tr>
+                    </table>
+                            <!--Show the Data Table on the View after reading the Excel File-->
+                            if (Model != null)
+                            {
+
+                            <table>
+                                <tr>
+                                    @for (int i = 0; i < Model.Columns.Count; i++)
+                                    {
+                                        <th>@Model.Columns[i].ColumnName</th>
+                                    }
+                                </tr>
+                                @for (int i = 0; i < Model.Rows.Count; i++)
+                {
+                                    <tr>
+                                        @for (int j = 0; j < Model.Columns.Count; j++)
+                                        {
+                                            <td>@Model.Rows[i][j]</td>
+                                        }
+                                    </tr>
+                                }
+                            </table>
+                            }
+                            }
+                            <script>
+                                function uploadFile(target) {
+                                    document.getElementById("file-name").innerHTML = target.files[0].name;
+                                }
+                            </script>
+
+
+
+
+
