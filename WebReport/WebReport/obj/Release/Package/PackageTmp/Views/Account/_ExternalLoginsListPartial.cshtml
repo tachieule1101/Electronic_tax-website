@@ -1,7 +1,7 @@
 ﻿@model WebReport.Models.ExternalLoginListViewModel
 @using Microsoft.Owin.Security
 
-<h4>Phân quyền xem nội dung sau khi đăng nhập</h4>
+<h4>Phân quyền xem nội dung sau khi đăng nhập.</h4>
 <hr />
 @{
     var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
@@ -9,7 +9,7 @@
     {
         <div>
             <p>
-                "Để tài khoản của bạn có thể xem đầy đủ các thông tin. Xin vui lòng gửi thư điện tử về <a href="http://mailto:mchuong.hcm@gdt.gov.vn">
+                Để tài khoản của bạn có thể xem đầy đủ các thông tin. Xin vui lòng gửi thư điện tử về <a href="mailto:mchuong.hcm@gdt.gov.vn">
                     bộ phận tin học
                 </a>  để được cấp quyền theo đúng chức năng.
 

@@ -1,4 +1,5 @@
-﻿
+﻿@using System.Data
+@model DataTable
 @{
     ViewBag.Title = "TienDo";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -28,9 +29,9 @@
         }
 
     .t {
-        width:100%;
-        height:500px;
-        border: 1px solid #ccc;
+        width: 100%;
+        height: 500px;
+       
     }
     /* Change background color of buttons on hover */
     .tab button:hover {
@@ -49,96 +50,192 @@
         border: 1px solid #ccc;
         border-top: none;
     }
+     .table tr ,.table th,.table td{
+        border:1px solid black !important;
+    }
+     .table th{
+         text-align:center;
+     }
 </style>
 <br /> <br />
+
 <div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'TienDoCBQL')">TienDoCBQL</button>
-    <button class="tablinks" onclick="openCity(event, 'TienDoMLNS')">TienDoMLNS</button>
-    <button class="tablinks" onclick="openCity(event, 'Khac')">.......</button>
+    <button class="tablinks" onclick="openCity(event, 'TienDo1')">Tiến độ thực hiện theo đơn vị.</button>
+    <button class="tablinks" onclick="openCity(event, 'TienDo2')">Tiến độ thực hiện theo cán bộ.</button>
+    <button class="tablinks" onclick="openCity(event, 'TienDo3')">Tiến độ thực hiện theo loại thuế.</button>
 </div>
 <div class="t">
-    <div id="TienDoCBQL" class="tabcontent">
-        <h3>TienDoCBQL</h3>
-        <table class="table">
+    <div id="TienDo1" class="tabcontent">
+        <h3>Tiến độ thực hiện theo đơn vị - tính đến ngày @DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year.</h3>
+      
+        <table class="table" >
             <tr style="font-size:15px;width:10%">
-                <th>
-                    TT
-                </th>
-                <th>
-                  MA
-                </th>
-                <th>
-                    CHITIEU
-                </th>
-                <th>
-                    THANG
-                </th>
-                <th>
-                   QUY
-                </th>
-                <th>
-                    NAM
-                </th>
-                <th>
-                    KHQUY
-                </th>
-                <th>
-                    KHNAM
-                </th>
-            </tr>
-       </table>
-</div>
 
-    <div id="TienDoMLNS" class="tabcontent">
-        <h3>TienDoMLNS</h3>
-        <table class="table">
-            <tr style="font-size:15px;width:10%">
                 <th>
-                    TT
+                    Mã
                 </th>
                 <th>
-                    MA
+                    Chi tiêu
                 </th>
                 <th>
-                    CHITIEU
+                    Số thu tháng
+                </th>
+
+                <th>
+                    Số thu quý
                 </th>
                 <th>
-                    THANG
+                    Kế hoạch quý
                 </th>
                 <th>
-                    QUY
+                    Tỉ lệ quý
                 </th>
                 <th>
-                    NAM
+                    Số thu năm
                 </th>
                 <th>
-                    KHQUY
+                    Kế hoạch năm
                 </th>
                 <th>
-                    KHNAM
+                    Tỉ lệ năm
                 </th>
             </tr>
+
+            @for (int i = 0; i < Model.Rows.Count; i++)
+            {
+                <tr>
+                    @for (int j = 0; j < Model.Columns.Count; j++)
+                    {
+                        <td>@Model.Rows[i][j]</td>
+                    }
+                </tr>
+            }
+          
         </table>
     </div>
 
-    <div id="Khac" class="tabcontent">
-        <h3>Khac</h3>
+    <div id="TienDo2" class="tabcontent">
+        <h3>Tiến độ thực hiện theo cán bộ - tính đến ngày @DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year.</h3>
+        <table class="table">
+            <tr style="font-size:15px;width:10%">
+
+                <th>
+                    Mã
+                </th>
+                <th>
+                    Chi tiêu
+                </th>
+                <th>
+                    Số thu tháng
+                </th>
+
+                <th>
+                    Số thu quý
+                </th>
+                <th>
+                    Kế hoạch quý
+                </th>
+                <th>
+                    Tỉ lệ quý
+                </th>
+                <th>
+                    Số thu năm
+                </th>
+                <th>
+                    Kế hoạch năm
+                </th>
+                <th>
+                    Tỉ lệ năm
+                </th>
+            </tr>
+            @for (int i = 0; i < Model.Rows.Count; i++)
+            {
+                <tr>
+                    @for (int j = 0; j < Model.Columns.Count; j++)
+                    {
+                        <td>@Model.Rows[i][j]</td>
+                    }
+                </tr>
+            }
+        </table>
+    </div>
+
+    <div id="TienDo3" class="tabcontent">
+        <h3>Tiến độ thực hiện theo loại thuế - tính đến ngày @DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year.</h3>
+        <table class="table">
+            <tr style="font-size:15px;width:10%">
+                <th>
+                    Mã
+                </th>
+                <th>
+                    Chi tiêu
+                </th>
+                <th>
+                    Số thu tháng
+                </th>
+
+                <th>
+                   Số thu quý
+                </th>
+                <th>
+                    Kế hoạch quý
+                </th>
+                <th>
+                    Tỉ lệ quý
+                </th>
+                <th>
+                    Số thu năm
+                </th>
+                <th>
+                    Kế hoạch năm 
+                </th>
+                <th>
+                    Tỉ lệ năm
+                </th>
+            </tr>
+            @for (int i = 0; i < Model.Rows.Count; i++)
+            {
+                <tr>
+                    @for (int j = 0; j < Model.Columns.Count; j++)
+                    {
+                        <td>@Model.Rows[i][j]</td>
+                    }
+                </tr>
+            }
+        </table>
     </div>
 </div>
 <script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+    var url = document.URL;
+    var kq = url.substring(35, 36);
+
+    if (kq == "") {
+        openCity(event, 'TienDo1');
+    }
+    if (kq == "1") {
+        openCity(event, 'TienDo1');
+    }
+    if (kq == "2") {
+        openCity(event, 'TienDo2');
+    }
+    if (kq == "3") {
+        openCity(event, 'TienDo3');
+    }
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+
 </script>
 
 

@@ -10,9 +10,18 @@
 </head>
 <style>
 
-    .navbar-fixed-top{
-        background:white;
-        color:black;
+    .navbar-fixed-top {
+        background: #56aaf3;
+       
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+        color: #dfec10 !important;
+    }
+    .navbar-inverse .navbar-brand {
+        color: black;
     }
    
 </style>
@@ -25,10 +34,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Trang chủ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Trang chủ", "Index", "Home")</li>
                     <li>@Html.ActionLink("Tiến độ thực hiện kế hoạch", "TienDo", "Home")</li>
                     <li>@Html.ActionLink("Thông tin nội bộ", "ThongTin", "Home")</li>
                     <li>@Html.ActionLink("Cập nhật cơ sở dữ liệu", "CapNhat", "Home")</li>

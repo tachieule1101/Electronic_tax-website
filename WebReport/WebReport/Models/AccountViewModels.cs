@@ -70,7 +70,7 @@ namespace WebReport.Models
         public string Email { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Phải {0}ít nhất {2} ký tự.", MinimumLength = 6)]
+        [StringLength(100, ErrorMessage = "{0} phải ít nhất {2} ký tự.", MinimumLength = 6)]
         [DataType(DataType.Password)]
         [Display(Name = "Mật khẩu")]
         public string Password { get; set; }
@@ -89,7 +89,7 @@ namespace WebReport.Models
         public string Email { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "Phải {0} ít nhât {2} ký tự.", MinimumLength = 6)]
+        [StringLength(100, ErrorMessage = "{0} Phải ít nhât {2} ký tự.", MinimumLength = 6)]
         [DataType(DataType.Password)]
         [Display(Name = "Mật khẩu")]
         public string Password { get; set; }

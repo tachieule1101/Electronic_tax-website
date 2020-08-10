@@ -9,12 +9,11 @@ namespace WebReport.Models
 {
     public class DBConnection
     {
-        string a = WebReport.Controllers.HomeController.connect;
         string strCon;
         public DBConnection()
         {
 
-            strCon = ConfigurationManager.ConnectionStrings[a].ConnectionString;
+            strCon = ConfigurationManager.ConnectionStrings["Demo1"].ConnectionString;
         }
         public SqlConnection getConnection()
         {

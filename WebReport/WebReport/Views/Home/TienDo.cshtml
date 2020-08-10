@@ -1,7 +1,8 @@
-﻿
+﻿@using System.Data
+
 @{
     ViewBag.Title = "TienDo";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout _TienDo.cshtml";
 }
 <style>
     body {
@@ -28,9 +29,9 @@
         }
 
     .t {
-        width:100%;
-        height:500px;
-        border: 1px solid #ccc;
+        width: 100%;
+        height: 500px;
+       
     }
     /* Change background color of buttons on hover */
     .tab button:hover {
@@ -49,124 +50,193 @@
         border: 1px solid #ccc;
         border-top: none;
     }
+     .table tr ,.table th,.table td{
+        border:1px solid black !important;
+    }
+     .table th{
+         text-align:center;
+     }
 </style>
 <br /> <br />
+
 <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'TienDo1')">Tiến độ thực hiện theo đơn vị.</button>
     <button class="tablinks" onclick="openCity(event, 'TienDo2')">Tiến độ thực hiện theo cán bộ.</button>
-    <button class="tablinks" onclick="openCity(event, 'TienDo3')">Tiến độ thực hiện theo chỉ tiêu.</button>
+    <button class="tablinks" onclick="openCity(event, 'TienDo3')">Tiến độ thực hiện theo loại thuế.</button>
 </div>
 <div class="t">
     <div id="TienDo1" class="tabcontent">
-        <h3>Tiến độ thực hiện theo đơn vị</h3>
-        <table class="table">
+        <h3>Tiến độ thực hiện theo đơn vị - tính đến ngày @DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year.</h3>
+      
+        <table class="table" >
             <tr style="font-size:15px;width:10%">
-                <th>
-                    Thứ Tự
-                </th>
+
                 <th>
                     Mã
                 </th>
                 <th>
-                    Chi Tiêu
+                    Chi tiêu
                 </th>
                 <th>
-                    Tháng
+                    Số thu tháng
                 </th>
+
                 <th>
-                    Qúy
-                </th>
-                <th>
-                    Năm
+                    Số thu quý
                 </th>
                 <th>
                     Kế hoạch quý
                 </th>
                 <th>
+                    Tỉ lệ quý
+                </th>
+                <th>
+                    Số thu năm
+                </th>
+                <th>
                     Kế hoạch năm
                 </th>
+                <th>
+                    Tỉ lệ năm
+                </th>
             </tr>
+
+            @for (int i = 0; i < WebReport.Controllers.HomeController.TienDoCBQL().Rows.Count; i++)
+            {
+                <tr>
+                    @for (int j = 0; j < WebReport.Controllers.HomeController.TienDoCBQL().Columns.Count; j++)
+                    {
+                        <td>@WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][j]</td>
+                    }
+                </tr>
+            }
+          
         </table>
     </div>
 
     <div id="TienDo2" class="tabcontent">
-        <h3>Tiến độ thực hiện theo cán bộ</h3>
+        <h3>Tiến độ thực hiện theo cán bộ - tính đến ngày @DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year.</h3>
         <table class="table">
             <tr style="font-size:15px;width:10%">
-                <th>
-                    Thứ Tự
-                </th>
+
                 <th>
                     Mã
                 </th>
                 <th>
-                    Chi Tiêu
+                    Chi tiêu
                 </th>
                 <th>
-                    Tháng
+                    Số thu tháng
                 </th>
+
                 <th>
-                    Qúy
-                </th>
-                <th>
-                    Năm
+                    Số thu quý
                 </th>
                 <th>
                     Kế hoạch quý
                 </th>
                 <th>
+                    Tỉ lệ quý
+                </th>
+                <th>
+                    Số thu năm
+                </th>
+                <th>
                     Kế hoạch năm
                 </th>
+                <th>
+                    Tỉ lệ năm
+                </th>
             </tr>
+            @for (int i = 0; i < WebReport.Controllers.HomeController.TienDoMLNS().Rows.Count; i++)
+            {
+            <tr>
+                @for (int j = 0; j < WebReport.Controllers.HomeController.TienDoMLNS().Columns.Count; j++)
+                {
+                    <td>@WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][j]</td>
+                }
+            </tr>
+            }
         </table>
     </div>
 
     <div id="TienDo3" class="tabcontent">
-        <h3>Tiến độ thực hiện theo chỉ tiêu</h3>
+        <h3>Tiến độ thực hiện theo loại thuế - tính đến ngày @DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year.</h3>
         <table class="table">
             <tr style="font-size:15px;width:10%">
-                <th>
-                    Thứ Tự
-                </th>
                 <th>
                     Mã
                 </th>
                 <th>
-                    Chi Tiêu
+                    Chi tiêu
                 </th>
                 <th>
-                    Tháng
+                    Số thu tháng
                 </th>
+
                 <th>
-                    Qúy
-                </th>
-                <th>
-                    Năm
+                    Số thu quý
                 </th>
                 <th>
                     Kế hoạch quý
                 </th>
                 <th>
+                    Tỉ lệ quý
+                </th>
+                <th>
+                    Số thu năm
+                </th>
+                <th>
                     Kế hoạch năm
                 </th>
+                <th>
+                    Tỉ lệ năm
+                </th>
             </tr>
+
+            @for (int i = 0; i < WebReport.Controllers.HomeController.TienDoCBQL().Rows.Count; i++)
+            {
+                <tr>
+                    @for (int j = 0; j < WebReport.Controllers.HomeController.TienDoCBQL().Columns.Count; j++)
+                    {
+                        <td>@WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][j]</td>
+                    }
+                </tr>
+            }
         </table>
     </div>
 </div>
 <script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+    var url = document.URL;
+    var kq = url.substring(35, 36);
+
+    if (kq == "") {
+        openCity(event, 'TienDo1');
+    }
+    if (kq == "1") {
+        openCity(event, 'TienDo1');
+    }
+    if (kq == "2") {
+        openCity(event, 'TienDo2');
+    }
+    if (kq == "3") {
+        openCity(event, 'TienDo3');
+    }
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+
 </script>
 
 
