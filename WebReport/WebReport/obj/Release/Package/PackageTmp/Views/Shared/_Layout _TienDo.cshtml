@@ -12,6 +12,7 @@
 
     .navbar-fixed-top {
         background: #56aaf3;
+       
         font-weight: bold;
         font-size: 20px;
         border: none;
@@ -48,8 +49,11 @@
     </div>
     <div class="container body-content">
         @RenderBody()
+        <hr />
        
-       
+        <footer>
+            <p>&copy; @DateTime.Now.Year Chi cục thuế khu vực Quận 12 - huyện Hóc Môn</p>
+        </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")

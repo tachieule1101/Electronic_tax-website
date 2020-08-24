@@ -24,12 +24,9 @@
 
         public int THANG { get; set; }
         public int QUY { get; set; }
-        public int KHQUY { get; set; }
-        public int TLQUY { get; set; }
         public int NAM { get; set; }
-
+        public int KHQUY { get; set; }
         public int KHNAM { get; set; }
-        public int TLNAM { get; set; }
 
     }
 }

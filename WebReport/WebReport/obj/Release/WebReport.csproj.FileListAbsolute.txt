@@ -1,94 +1,3 @@
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ApplicationInsights.config
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\csc.exe
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\vbc.exe
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\VBCSCompiler.exe
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\WebReport.dll.config
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\WebReport.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\WebReport.pdb
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Antlr3.Runtime.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ClosedXML.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\DocumentFormat.OpenXml.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\EntityFramework.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\EntityFramework.SqlServer.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ExcelNumberFormat.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.Web.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.ApplicationInsights.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Newtonsoft.Json.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Owin.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Helpers.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Mvc.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Optimization.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Razor.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.Deployment.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.Razor.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\WebGrease.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ClosedXML.pdb
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ClosedXML.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\DocumentFormat.OpenXml.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ExcelNumberFormat.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.Web.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.ApplicationInsights.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Helpers.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Mvc.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Optimization.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Razor.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.Deployment.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.Razor.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Antlr3.Runtime.pdb
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Newtonsoft.Json.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\EntityFramework.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\EntityFramework.SqlServer.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\obj\Release\WebReport.csproj.CoreCompileInputs.cache
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\obj\Release\WebReport.csproj.CopyComplete
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\obj\Release\WebReport.dll
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\obj\Release\WebReport.pdb
-C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\obj\Release\WebReport.csprojAssemblyReference.cache
 C:\VisualStudio2019Save\WebReport\WebReport\bin\ApplicationInsights.config
 C:\VisualStudio2019Save\WebReport\WebReport\bin\roslyn\csc.exe
 C:\VisualStudio2019Save\WebReport\WebReport\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -271,94 +180,185 @@ C:\Users\zawsz\Videos\WebReport\WebReport\obj\Release\WebReport.csproj.CoreCompi
 C:\Users\zawsz\Videos\WebReport\WebReport\obj\Release\WebReport.csproj.CopyComplete
 C:\Users\zawsz\Videos\WebReport\WebReport\obj\Release\WebReport.dll
 C:\Users\zawsz\Videos\WebReport\WebReport\obj\Release\WebReport.pdb
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\ApplicationInsights.config
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\csc.exe
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\vbc.exe
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\VBCSCompiler.exe
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\WebReport.dll.config
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\WebReport.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\WebReport.pdb
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Antlr3.Runtime.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\ClosedXML.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\DocumentFormat.OpenXml.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\EntityFramework.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\EntityFramework.SqlServer.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\ExcelNumberFormat.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AI.Web.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.ApplicationInsights.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Newtonsoft.Json.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Owin.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.Helpers.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.Mvc.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.Optimization.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.Razor.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.WebPages.Deployment.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.WebPages.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.WebPages.Razor.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\WebGrease.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\ClosedXML.pdb
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\ClosedXML.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\DocumentFormat.OpenXml.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\ExcelNumberFormat.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AI.Web.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.ApplicationInsights.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.Helpers.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.Mvc.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.Optimization.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.Razor.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.WebPages.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.WebPages.Deployment.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\System.Web.WebPages.Razor.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Antlr3.Runtime.pdb
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Newtonsoft.Json.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\EntityFramework.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\EntityFramework.SqlServer.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\obj\Release\WebReport.csprojAssemblyReference.cache
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\obj\Release\WebReport.csproj.CoreCompileInputs.cache
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\obj\Release\WebReport.csproj.CopyComplete
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\obj\Release\WebReport.dll
-C:\Users\zawsz\OneDrive\Tài liệu\chinh thuc\WebReport\WebReport\obj\Release\WebReport.pdb
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ApplicationInsights.config
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\csc.exe
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\vbc.exe
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\VBCSCompiler.exe
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\WebReport.dll.config
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\WebReport.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\WebReport.pdb
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Antlr3.Runtime.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ClosedXML.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\DocumentFormat.OpenXml.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\EntityFramework.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\EntityFramework.SqlServer.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ExcelNumberFormat.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.Web.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.ApplicationInsights.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Newtonsoft.Json.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Owin.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Helpers.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Mvc.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Optimization.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Razor.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.Deployment.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.Razor.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\WebGrease.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ClosedXML.pdb
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ClosedXML.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\DocumentFormat.OpenXml.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\ExcelNumberFormat.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.Web.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.ApplicationInsights.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Helpers.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Mvc.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Optimization.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.Razor.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.Deployment.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\System.Web.WebPages.Razor.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Antlr3.Runtime.pdb
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Newtonsoft.Json.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\EntityFramework.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\EntityFramework.SqlServer.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\obj\Release\WebReport.csproj.CoreCompileInputs.cache
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\obj\Release\WebReport.csproj.CopyComplete
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\obj\Release\WebReport.dll
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\obj\Release\WebReport.pdb
+C:\Users\zawsz\OneDrive\Tài liệu\WebReport\WebReport\obj\Release\WebReport.csprojAssemblyReference.cache
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\ApplicationInsights.config
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\csc.exe
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\System.Collections.Immutable.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\System.Reflection.Metadata.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\vbc.exe
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\VBCSCompiler.exe
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\roslyn\VBCSCompiler.exe.config
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\WebReport.dll.config
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\WebReport.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\WebReport.pdb
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Antlr3.Runtime.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\ClosedXML.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\DocumentFormat.OpenXml.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\EntityFramework.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\EntityFramework.SqlServer.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\ExcelNumberFormat.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AI.Agent.Intercept.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AI.DependencyCollector.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AI.Web.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AI.WindowsServer.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.ApplicationInsights.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Core.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.Cookies.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.Facebook.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.Google.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.OAuth.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.Twitter.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Web.Infrastructure.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Newtonsoft.Json.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Owin.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.Helpers.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.Mvc.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.Optimization.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.Razor.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.WebPages.Deployment.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.WebPages.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.WebPages.Razor.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\WebGrease.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\ClosedXML.pdb
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\ClosedXML.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\DocumentFormat.OpenXml.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\ExcelNumberFormat.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AI.DependencyCollector.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AI.Web.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AI.WindowsServer.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.ApplicationInsights.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.Helpers.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.Mvc.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.Optimization.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.Razor.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.WebPages.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.WebPages.Deployment.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\System.Web.WebPages.Razor.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Antlr3.Runtime.pdb
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Newtonsoft.Json.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\EntityFramework.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\EntityFramework.SqlServer.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Core.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.Facebook.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.Cookies.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.OAuth.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.Google.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.Twitter.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\obj\Release\WebReport.csprojAssemblyReference.cache
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\obj\Release\WebReport.csproj.CoreCompileInputs.cache
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\obj\Release\WebReport.csproj.CopyComplete
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\obj\Release\WebReport.dll
+E:\TTCT\tuan12\phanquyen_vs2015\WebReport\WebReport\obj\Release\WebReport.pdb

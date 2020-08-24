@@ -50,8 +50,7 @@ namespace WebReport.Models
     {
         [Required]
         [Display(Name = "Tài khoản")]
-        [EmailAddress]
-        public string Email { get; set; }
+        public string UserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -66,8 +65,12 @@ namespace WebReport.Models
     {
         [Required]
         [EmailAddress]
-        [Display(Name = "Tài Khoản")]
+        [Display(Name = "Email")]
         public string Email { get; set; }
+
+        [Required]
+        [Display(Name = "Tài khoản")]
+        public string UserName { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "Phải {0}ít nhất {2} ký tự.", MinimumLength = 6)]

@@ -6,28 +6,28 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    
+
 </head>
 <style>
 
     .navbar-fixed-top {
         background: #56aaf3;
-       
         font-weight: bold;
         font-size: 20px;
         border: none;
     }
+
     .navbar-inverse .navbar-nav > li > a {
         color: #dfec10 !important;
     }
+
     .navbar-inverse .navbar-brand {
         color: black;
     }
+
     .navbar-inverse .navbar-nav > li > a:hover {
         color: #ffffff !important;
     }
-   
-   
 </style>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -42,25 +42,35 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Trang chủ", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Tiến độ thực hiện kế hoạch", "TienDo", "Home")</li>
+                    <li>@Html.ActionLink("Báo cáo", "TienDo", "Home")</li>
                     <li>@Html.ActionLink("Thông tin nội bộ", "ThongTin", "Home")</li>
-                    <li>@Html.ActionLink("Cập nhật cơ sở dữ liệu", "CapNhat", "Home")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
+
+
+                    <li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            if (User.IsInRole("Admin"))
+                            {         
+                            <li>@Html.ActionLink("Cập nhật", "CapNhat", "Home")</li>
+                        }
+                    }
+                        </li>
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-       
-        <footer>
-            <p>&copy; @DateTime.Now.Year Chi cục thuế khu vực Quận 12 - huyện Hóc Môn</p>
-        </footer>
-    </div>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
-</body>
+            <footer>
+                <p>&copy; @DateTime.Now.Year Chi cục thuế khu vực Quận 12 - huyện Hóc Môn</p>
+            </footer>
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </body>
 </html>
