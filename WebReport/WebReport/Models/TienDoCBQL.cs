@@ -12,7 +12,7 @@
 
         [Required]
         [StringLength(3)]
-        public string TT { get; set; }
+        public int TT { get; set; }
 
         [Required]
         [StringLength(50)]
@@ -24,9 +24,11 @@
 
         public int THANG { get; set; }
         public int QUY { get; set; }
-        public int NAM { get; set; }
         public int KHQUY { get; set; }
+        public int TLQUY { get; set; }
+        public int NAM { get; set; }
+       
         public int KHNAM { get; set; }
-
+        public int TLNAM { get; set; }
     }
 }

@@ -1,9 +1,9 @@
 ﻿@using System.Data
-
 @{
     ViewBag.Title = "TienDo";
     Layout = "~/Views/Shared/_Layout _TienDo.cshtml";
 }
+
 <style>
     body {
         font-family: Arial;
@@ -31,7 +31,6 @@
     .t {
         width: 100%;
         height: 500px;
-       
     }
     /* Change background color of buttons on hover */
     .tab button:hover {
@@ -50,12 +49,18 @@
         border: 1px solid #ccc;
         border-top: none;
     }
-     .table tr ,.table th,.table td{
-        border:1px solid black !important;
+
+    .table tr, .table th, .table td {
+        border: 1px solid black !important;
     }
-     .table th{
-         text-align:center;
-     }
+
+    .table th {
+        text-align: center;
+    }
+
+    h5 {
+        float: right;
+    }
 </style>
 <br /> <br />
 
@@ -67,55 +72,79 @@
 <div class="t">
     <div id="TienDo1" class="tabcontent">
         <h3>Tiến độ thực hiện theo đơn vị - tính đến ngày @DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year.</h3>
-      
-        <table class="table" >
-            <tr style="font-size:15px;width:10%">
+        <h5>Đơn vị: Triệu đồng</h5>
+        <table class="table">
+            <tr style="font-size:15px;">
 
-                <th>
+                <th style="width:5%">
                     Mã
                 </th>
-                <th>
+                <th style="width:10%">
                     Chi tiêu
                 </th>
-                <th>
+                <th style="width:13%">
                     Số thu tháng
                 </th>
 
-                <th>
+                <th style="width:13%">
                     Số thu quý
                 </th>
-                <th>
+                <th style="width:13%">
                     Kế hoạch quý
                 </th>
-                <th>
+                <th style="width:10%">
                     Tỉ lệ quý
                 </th>
-                <th>
+                <th style="width:13%">
                     Số thu năm
                 </th>
-                <th>
+                <th style="width:13%">
                     Kế hoạch năm
                 </th>
-                <th>
+                <th style="width:10%">
                     Tỉ lệ năm
                 </th>
             </tr>
 
             @for (int i = 0; i < WebReport.Controllers.HomeController.TienDoCBQL().Rows.Count; i++)
             {
-                <tr>
-                    @for (int j = 0; j < WebReport.Controllers.HomeController.TienDoCBQL().Columns.Count; j++)
-                    {
-                        <td>@WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][j]</td>
-                    }
-                </tr>
+                if (WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][1].ToString().Equals("0000000"))
+                {
+                    <tr style="font-weight:bold;font-size:15px">
+                        <td>@WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][1]</td>
+                        <td>@WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][2]</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][3].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][4].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][5].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][6].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][7].ToString())) / 1000000).ToString("#,##0")</td>
+                       <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][8].ToString())) / 1000000).ToString("#,##0")</td>
+                       <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][9].ToString())) / 1000000).ToString("#,##0")</td>
+                    </tr>
+                }
+                else
+                {
+                    <tr>
+                        <td>@WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][1]</td>
+                        <td>@WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][2]</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][3].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][4].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][5].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][6].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][7].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][8].ToString())) / 1000000).ToString("#,##0")</td>
+                       <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][9].ToString())) / 1000000).ToString("#,##0")</td>
+                    </tr>
+                }
+
             }
-          
+
         </table>
     </div>
 
     <div id="TienDo2" class="tabcontent">
         <h3>Tiến độ thực hiện theo cán bộ - tính đến ngày @DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year.</h3>
+        <h5>Đơn vị: Triệu đồng</h5>
         <table class="table">
             <tr style="font-size:15px;width:10%">
 
@@ -150,18 +179,41 @@
             </tr>
             @for (int i = 0; i < WebReport.Controllers.HomeController.TienDoMLNS().Rows.Count; i++)
             {
-            <tr>
-                @for (int j = 0; j < WebReport.Controllers.HomeController.TienDoMLNS().Columns.Count; j++)
+                if (WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][1].ToString().Equals("0000000"))
                 {
-                    <td>@WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][j]</td>
+                    <tr style="font-weight:bold;font-size:15px">
+                        <td>@WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][1]</td>
+                        <td>@WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][2]</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][3].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][4].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][5].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][6].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][7].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][8].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][9].ToString())) / 1000000).ToString("#,##0")</td>
+                    </tr>
                 }
-            </tr>
+                else
+                {
+                    <tr>
+                        <td>@WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][1]</td>
+                        <td>@WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][2]</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][3].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][4].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][5].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][6].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][7].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][8].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoMLNS().Rows[i][9].ToString())) / 1000000).ToString("#,##0")</td>
+                    </tr>
+                }
             }
         </table>
     </div>
 
     <div id="TienDo3" class="tabcontent">
         <h3>Tiến độ thực hiện theo loại thuế - tính đến ngày @DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year.</h3>
+        <h5>Đơn vị: Triệu đồng</h5>
         <table class="table">
             <tr style="font-size:15px;width:10%">
                 <th>
@@ -194,14 +246,36 @@
                 </th>
             </tr>
 
-            @for (int i = 0; i < WebReport.Controllers.HomeController.TienDoCBQL().Rows.Count; i++)
+            @for (int i = 0; i < WebReport.Controllers.HomeController.TienDoLT().Rows.Count; i++)
             {
-                <tr>
-                    @for (int j = 0; j < WebReport.Controllers.HomeController.TienDoCBQL().Columns.Count; j++)
-                    {
-                        <td>@WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][j]</td>
-                    }
-                </tr>
+                if (WebReport.Controllers.HomeController.TienDoLT().Rows[i][1].ToString().Equals("0000000"))
+                {
+            <tr style="font-weight:bold;font-size:15px">
+                <td>@WebReport.Controllers.HomeController.TienDoLT().Rows[i][1]</td>
+                <td>@WebReport.Controllers.HomeController.TienDoLT().Rows[i][2]</td>
+                <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][3].ToString())) / 1000000).ToString("#,##0")</td>
+                <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][4].ToString())) / 1000000).ToString("#,##0")</td>
+                <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][5].ToString())) / 1000000).ToString("#,##0")</td>
+                <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][6].ToString())) / 1000000).ToString("#,##0")</td>
+                <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][7].ToString())) / 1000000).ToString("#,##0")</td>
+                <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][8].ToString())) / 1000000).ToString("#,##0")</td>
+                <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][9].ToString())) / 1000000).ToString("#,##0")</td>
+            </tr>
+                }
+                else
+                {
+                    <tr>
+                        <td>@WebReport.Controllers.HomeController.TienDoLT().Rows[i][1]</td>
+                        <td>@WebReport.Controllers.HomeController.TienDoLT().Rows[i][2]</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][3].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][4].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][5].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][6].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoLT().Rows[i][7].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][8].ToString())) / 1000000).ToString("#,##0")</td>
+                        <td> @Convert.ToDecimal((long.Parse(WebReport.Controllers.HomeController.TienDoCBQL().Rows[i][9].ToString())) / 1000000).ToString("#,##0")</td>
+                    </tr>
+                }
             }
         </table>
     </div>
@@ -238,5 +312,7 @@
 
 
 </script>
+
+
 
 

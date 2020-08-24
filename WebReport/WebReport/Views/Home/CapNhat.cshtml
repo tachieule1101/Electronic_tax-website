@@ -1,91 +1,320 @@
-﻿
-@using System.Data
-@model WebReport.Models.Importsql
-@{
-    ViewBag.Title = "CapNhat";
-    Layout = "~/Views/Shared/_Layout _TienDo.cshtml";
-}
-<br />
+﻿<style>
+    .inputfile {
+        display: none !important;
+    }
+
+    .file-box {
+        display: inline-block;
+        width: 300px;
+        box-sizing: border-box;
+    }
+
+    .file-button {
+        font-size: 25px;
+        border-left: 1px solid;
+    }
+
+    .gg {
+        border: 1px solid;
+        padding: 5px 5px 5px 5px;
+    }
+
+    table tr, table th, table td {
+        border: 1px solid black !important;
+    }
+
+    table td, table th {
+        text-align: center;
+    }
+</style>
+
+<h3>File mẫu</h3>
 @using (Html.BeginForm("WriteDataToExcel", "Home"))
 {
-    <button class="btn btn-default">File mau</button>
+    <button class="btn btn-default">Tải xuống</button>
 }
 
-<h1>Import Excel File Tien Do CBQL</h1>
+<br />
+<h3>Tiến độ thực hiện theo đơn vị</h3>
 
-<div id="viewContent">
-    <h3>@ViewBag.Result</h3>
-    @using (Html.BeginForm("ImportTienDoCBQL", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
-    {
-        @Html.TextBoxFor(m => m.file, new { type = "file" })
-        <button id="submitButton" type="submit">Tai file</button>
-        @Html.ValidationMessageFor(model => model.file)
-    }
-    <table>
+
+@using (Html.BeginForm("ImportTienDoCBQL", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="inputfile-box">
+        <input type="file" id="file" name="file" class="inputfile" onchange='uploadFile(this)'>
+        <label for="file" class="gg">
+            <span id="file-name" class="file-box"></span>
+            <span class="file-button">
+                ...
+            </span>
+        </label>
+        <button id="tai" class="btn btn-default" type="submit">Tải file</button>
+    </div>
+}
+
+<br />
+<table>
+    <tr>
+
         <th>
             @using (Html.BeginForm("ResetTienDoCBQL", "Home"))
             {
-                <button class="btn btn-default">Upload</button>
+                <input id="capnhat" type="submit" value="Cập nhật File" class="btn btn-default" />
             }
-        </th>
+        <th>
+        <th>
+            @using (Html.BeginForm("ExitTienDoCBQL", "Home"))
+            {
+                <input type="submit" value="Thoát" class="btn btn-default" />
+            }
+
+         <th>
         <th>
             @using (Html.BeginForm("WriteTienDoCBQL", "Home"))
             {
-                <button class="btn btn-default">Export</button>
+                <input type="submit" value="Xuất File" class="btn btn-default" />
             }
+        <th>
+    </tr>
+
+</table>
+<br />
+<table class="table">
+    <tr id="alow" style="font-size:15px;">
+
+        <th style="width:5%">
+            Mã
         </th>
-    </table>
-    <table>
+        <th style="width:10%">
+            Chi tiêu
+        </th>
+        <th style="width:13%">
+            Số thu tháng
+        </th>
 
-        @for (int i = 0; i < WebReport.Controllers.HomeController.TienDoCBQL1().Rows.Count; i++)
-        {
-            <tr>
-                @for (int j = 0; j < WebReport.Controllers.HomeController.TienDoCBQL1().Columns.Count; j++)
-                {
-                    <td>@WebReport.Controllers.HomeController.TienDoCBQL1().Rows[i][j]</td>
-                }
-            </tr>
-        }
-    </table>
+        <th style="width:13%">
+            Số thu quý
+        </th>
+        <th style="width:13%">
+            Kế hoạch quý
+        </th>
+        <th style="width:10%">
+            Tỉ lệ quý
+        </th>
+        <th style="width:13%">
+            Số thu năm
+        </th>
+        <th style="width:13%">
+            Kế hoạch năm
+        </th>
+        <th style="width:10%">
+            Tỉ lệ năm
+        </th>
+    </tr>
 
-
-</div>
-<h1>Import Excel File Tien Do MLNS</h1>
-
-<div id="viewContent">
-    <h3>@ViewBag.Result</h3>
-    @using (Html.BeginForm("ImportTienDoMLNS", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    @for (int i = 0; i < 5; i++)
     {
-        @Html.TextBoxFor(m => m.file, new { type = "file" })
-        <button id="submitButton" type="submit">Submit</button>
-        @Html.ValidationMessageFor(model => model.file)
+        <tr>
+            @for (int j = 0; j < WebReport.Controllers.HomeController.TienDoCBQL1().Columns.Count; j++)
+            {
+                <td>@WebReport.Controllers.HomeController.TienDoCBQL1().Rows[i][j]</td>
+            }
+        </tr>
     }
-    <table>
+</table>
+<script>
+    function uploadFile(target) {
+        document.getElementById("file-name").innerHTML = target.files[0].name;
+    }
+</script>
+
+<h3>Tiến độ thực hiện theo cán bộ</h3>
+
+@using (Html.BeginForm("ImportTienDoMLNS", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{<div class="inputfile-box">
+        <input type="file" id="file" name="file" class="inputfile" onchange='uploadFile(this)'>
+        <label for="file" class="gg">
+            <span id="file-name" class="file-box"></span>
+            <span class="file-button">
+                ...
+            </span>
+        </label>
+        <button id="submitButton" class="btn btn-default" type="submit">Tải file</button>
+    </div>
+}
+
+<br />
+<table>
+    <tr>
+
         <th>
             @using (Html.BeginForm("ResetTienDoMLNS", "Home"))
             {
-                <button class="btn btn-default">Upload</button>
+                <input type="submit" value="Cập nhật File" class="btn btn-default" />
             }
-        </th>
+        <th>
+        <th>
+            @using (Html.BeginForm("ExitTienDoMLNS", "Home"))
+            {
+                <input type="submit" value="Thoát" class="btn btn-default" />
+            }
+
+        <th>
         <th>
             @using (Html.BeginForm("WriteTienDoMLNS", "Home"))
             {
-                <button class="btn btn-default">Export</button>
+                <input type="submit" value="Xuất File" class="btn btn-default" />
             }
-        </th>
-    </table>
-    <table>
+        <th>
+    </tr>
 
-        @for (int i = 0; i < WebReport.Controllers.HomeController.TienDoMLNS1().Rows.Count; i++)
+</table>
+<table class="table">
+    <tr id="abow" style="font-size:15px;">
+
+        <th style="width:5%">
+            Mã
+        </th>
+        <th style="width:10%">
+            Chi tiêu
+        </th>
+        <th style="width:13%">
+            Số thu tháng
+        </th>
+
+        <th style="width:13%">
+            Số thu quý
+        </th>
+        <th style="width:13%">
+            Kế hoạch quý
+        </th>
+        <th style="width:10%">
+            Tỉ lệ quý
+        </th>
+        <th style="width:13%">
+            Số thu năm
+        </th>
+        <th style="width:13%">
+            Kế hoạch năm
+        </th>
+        <th style="width:10%">
+            Tỉ lệ năm
+        </th>
+    </tr>
+
+    @for (int i = 0; i < 5; i++)
+    {
+        <tr>
+            @for (int j = 0; j < WebReport.Controllers.HomeController.TienDoMLNS1().Columns.Count; j++)
+            {
+                <td>@WebReport.Controllers.HomeController.TienDoMLNS1().Rows[i][j]</td>
+            }
+        </tr>
+    }
+</table>
+<script>
+    function uploadFile(target) {
+        document.getElementById("file-name").innerHTML = target.files[0].name;
+    }
+</script>
+
+<h3>Tiến độ thực hiện theo loại thuế</h3>
+
+@using (Html.BeginForm("ImportTienDoLT1", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<div class="inputfile-box">
+    <input type="file" id="file" name="file" class="inputfile" onchange='uploadFile(this)'>
+    <label for="file" class="gg">
+        <span id="file-name" class="file-box"></span>
+        <span class="file-button">
+            ...
+        </span>
+    </label>
+    <button id="submitButton" class="btn btn-default" type="submit">Tải file</button>
+</div>
+}
+    
+    <br />
+    <table>
+        <tr>
+            <th>
+                @using (Html.BeginForm("ResetTienDoLT", "Home"))
+                {
+                    <input type="submit" value="Cập nhật File" class="btn btn-default" />
+                }
+            <th>
+            <th>
+                @using (Html.BeginForm("ExitTienDoLT", "Home"))
+                {
+                    <input type="submit" value="Thoát" class="btn btn-default" />
+                }
+
+            <th>
+            <th>
+                @using (Html.BeginForm("WriteTienDoLT", "Home"))
+                {
+                    <input type="submit" value="Xuất File" class="btn btn-default" />
+                }
+            <th>
+        </tr>
+    </table>
+    <br />
+    <table class="table">
+        <tr id="ahow" style="font-size:15px;">
+
+            <th style="width:5%">
+                Mã
+            </th>
+            <th style="width:10%">
+                Chi tiêu
+            </th>
+            <th style="width:13%">
+                Số thu tháng
+            </th>
+
+            <th style="width:13%">
+                Số thu quý
+            </th>
+            <th style="width:13%">
+                Kế hoạch quý
+            </th>
+            <th style="width:10%">
+                Tỉ lệ quý
+            </th>
+            <th style="width:13%">
+                Số thu năm
+            </th>
+            <th style="width:13%">
+                Kế hoạch năm
+            </th>
+            <th style="width:10%">
+                Tỉ lệ năm
+            </th>
+        </tr>
+
+        @for (int i = 0; i < 5; i++)
         {
             <tr>
-                @for (int j = 0; j < WebReport.Controllers.HomeController.TienDoMLNS1().Columns.Count; j++)
+                @for (int j = 0; j < WebReport.Controllers.HomeController.TienDoLT1().Columns.Count; j++)
                 {
-                    <td>@WebReport.Controllers.HomeController.TienDoMLNS1().Rows[i][j]</td>
+                    <td>@WebReport.Controllers.HomeController.TienDoLT1().Rows[i][j]</td>
                 }
             </tr>
         }
     </table>
 
-</div>
+    <!--Show the Data Table on the View after reading the Excel File-->
+    <script>
+        function uploadFile(target) {
+            document.getElementById("file-name").innerHTML = target.files[0].name;
+        }
+    </script>
+    <script>
+        var b = document.querySelector('#alow');
+        var c = document.querySelector('#abow');
+        var d = document.querySelector('#ahow');
+        b.style.display = 'none';
+        c.style.display = 'none';
+        d.style.display = 'none';
 
+    </script>

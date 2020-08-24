@@ -1,0 +1,4 @@
+Sửa log off hello 
+đổi lại thứ tự cho tk tra cứu 
+Sửa tên tiêu đề tiến độ kế hoạch thành báo cáo ,cập nhật cơ sở dữ liệu thành cập nhật (Viết hoa chữ cái đầu)
+Đổi lại thứ tự theo trang chủ ->Báo cáo->Thông báo ->Cập nhật 
